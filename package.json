@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "render-pdf": "resume export out/resume.pdf --format pdf --theme jsonresume-theme-stackoverflow",
+    "render-html": "resume export out/resume.html --format html --theme jsonresume-theme-stackoverflow",
+    "validate": "resume validate",
+    "serve": "resume serve --theme jsonresume-theme-stackoverflow"
+  },
+  "dependencies": {
+    "jsonresume-theme-rickosborne": "^2022.9.16-T1450",
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "resume-cli": "^3.0.8"
+  }
+}
