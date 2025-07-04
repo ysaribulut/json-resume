@@ -7,7 +7,7 @@
     "email": "yunusaribulut@gmail.com",
     "phone": "534 528 3099",
     "url": "https://ysaribulut.com",
-    "summary": "Hi I am Yunus, I live in Istanbul. I am a full stack developer with nearly 10 years of experience. I am working as a Freelancer for 8 years. I am very interested in web, mobile, cloud and AI developments. I always try to follow the sector and use up-to-date technologies.",
+    "summary": "Hi I am Yunus, I live in Istanbul. With a decade of extensive experience in the tech industry, My expert knowledge spans a diverse range of technologies, including C#, .NET, and EF Core for back-end development, complemented by robust database management skills with both relational (MSSQL, PostgreSQL) and NoSQL (MongoDB) databases.\nOn the front end, I am proficient in JavaScript frameworks and have a strong command of Node.js and Next.js.\nMy versatility extends to mobile app development, where I leverage React Native and Flutter. Throughout my career, I have consistently demonstrated an ability to lead complex projects from conception to completion, working collaboratively with cross-functional teams to meet and exceed client expectations. My commitment to continuous learning and staying abreast of emerging technologies ensures that I can adapt and provide cutting-edge solutions that drive business success. I thrive in dynamic environments and relish the opportunity to solve challenging problems, always aiming to deliver high-quality, scalable, and efficient software that makes a tangible impact.",
     "location": {
       "city": "Umraniye",
       "countryCode": "TR",
@@ -98,7 +98,7 @@
   ],
   "work": [
     {
-      "company": "HRinONE ",
+      "company": "HRinONE",
       "location": "Remote",
       "summary": "Comprehensive platform where you can manage all HR processes.",
       "highlights": [
