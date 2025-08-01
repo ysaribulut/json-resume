@@ -122,6 +122,7 @@
         "Signalr"
       ],
       "startDate": "2018",
+      "endDate": "2025",
       "url": "https://hrinone.com",
       "position": "Team lead and Full stack developer"
     },
@@ -151,8 +152,34 @@
         "React"
       ],
       "startDate": "2023",
+      "endDate": "2025",
       "url": "https://hireinone.com",
       "position": "Team lead and Full stack developer"
+    },
+    {
+      "company": "EYS Organization",
+      "location": "Remote",
+      "summary": "EYS is an international helping organization that provides services to people in need. This is a backoffice application for organization to manage their employees across the world.",
+      "highlights": [
+        "Developed the backoffice using Next.js 15 with App Router",
+        "Used Minimals UI, Material UI, NextAuth, Prisma, PostgreSQL",
+        "Deployed using Docker, Github Actions to an Ubuntu Server",
+        "Implemented authentication, profile management, role and permission management",
+        "Implemented excel import and export features into PostgreSQL"
+      ],
+      "keywords": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Material UI",
+        "Docker",
+        "Github Actions",
+        "NextAuth",
+        "Prisma"
+      ],
+      "startDate": "2025",
+      "endDate": "2025",
+      "position": "Full Stack Next.js Developer"
     },
     {
       "company": "Otelz",
@@ -171,7 +198,8 @@
         "Angular 15",
         "HTML5",
         "Bootstrap",
-        "Docker"
+        "Docker",
+        "Next.js"
       ],
       "startDate": "2021",
       "endDate": "2022",
@@ -196,6 +224,7 @@
         "Dapper"
       ],
       "startDate": "2022",
+      "endDate": "2024",
       "url": "https://catchjobs.com",
       "position": "Full stack developer"
     },
@@ -231,6 +260,7 @@
         "VPN"
       ],
       "startDate": "2020",
+      "endDate": "2024",
       "url": "https://gotalkwireless.com",
       "position": "Full stack developer"
     },
@@ -244,6 +274,7 @@
       ],
       "keywords": ["JavaScript", "NodeJS", "Express", "MongoDB", "Angular 11"],
       "startDate": "2022",
+      "endDate": "2025",
       "url": "https://bilgesin.com",
       "position": "Full stack developer"
     },
@@ -254,9 +285,20 @@
       "highlights": ["Developed the mobile app from ground up."],
       "keywords": ["React Native", "JavaScript", "Firebase"],
       "startDate": "2020",
-      "endDate": "2020",
+      "endDate": "2023",
       "url": "https://divortex.com",
       "position": "Mobile developer"
+    },
+    {
+      "company": "Divortex",
+      "location": "Remote",
+      "summary": "This is a leading provider of high-quality car care chemicals and related solutions.",
+      "highlights": ["Developed the web app from ground up."],
+      "keywords": ["React", "Next.js v9", "Firebase", "React Native Web"],
+      "startDate": "2020",
+      "endDate": "2023",
+      "url": "https://divortex.com",
+      "position": "Full stack developer"
     },
     {
       "company": "Marmarabirlik",
@@ -299,6 +341,7 @@
       "highlights": ["Developed the mobile game from ground up."],
       "keywords": ["Flutter", "Dart", "Firebase", "Google Admob"],
       "startDate": "2024",
+      "endDate": "2025",
       "url": "https://ysaribulut.com",
       "position": "Mobile developer"
     }

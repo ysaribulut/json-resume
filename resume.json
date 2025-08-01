@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Yunus SARIBULUT",
-    "label": ".NET Backend Developer",
+    "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/34043976?v=4",
     "email": "yunusaribulut@gmail.com",
     "phone": "534 528 3099",
     "url": "https://ysaribulut.com",
-    "summary": "Hi I am Yunus, I live in Istanbul. With a decade of extensive experience in the tech industry, My expert knowledge spans a diverse range of technologies, including C#, .NET, and EF Core for back-end development, complemented by robust database management skills with both relational (MSSQL, PostgreSQL) and NoSQL (MongoDB) databases. Throughout my career, I have consistently demonstrated an ability to lead complex projects from conception to completion, working collaboratively with cross-functional teams to meet and exceed client expectations.",
+    "summary": "Hi I am Yunus, I live in Istanbul. With a decade of extensive experience in the tech industry, My expert knowledge spans a diverse range of technologies, including C#, .NET, and EF Core for back-end development, complemented by robust database management skills with both relational (MSSQL, PostgreSQL) and NoSQL (MongoDB) databases.\nOn the front end, I am proficient in JavaScript frameworks and have a strong command of Node.js and Next.js.\nMy versatility extends to mobile app development, where I leverage React Native and Flutter. Throughout my career, I have consistently demonstrated an ability to lead complex projects from conception to completion, working collaboratively with cross-functional teams to meet and exceed client expectations. My commitment to continuous learning and staying abreast of emerging technologies ensures that I can adapt and provide cutting-edge solutions that drive business success. I thrive in dynamic environments and relish the opportunity to solve challenging problems, always aiming to deliver high-quality, scalable, and efficient software that makes a tangible impact.",
     "location": {
       "city": "Umraniye",
       "countryCode": "TR",
@@ -47,6 +47,23 @@
       ]
     },
     {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "NodeJS",
+        "TypeScript",
+        "React",
+        "React Native",
+        "Next.js",
+        "Angular"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "level": "Master",
+      "keywords": ["Dart", "Firebase"]
+    },
+    {
       "name": "SQL/NoSQL",
       "level": "Master",
       "keywords": ["PostgreSQL", "SQLite", "MSSQL", "MongoDB", "Redis"]
@@ -64,9 +81,9 @@
       ]
     },
     {
-      "name": "JavaScript",
+      "name": "Frontend",
       "level": "Master",
-      "keywords": ["NodeJS", "TypeScript"]
+      "keywords": ["HTML", "CSS", "SCSS", "Bootstrap", "Tailwind", "Jquery"]
     }
   ],
   "languages": [
@@ -81,34 +98,13 @@
   ],
   "work": [
     {
-      "company": "HireInOne",
-      "location": "Remote",
-      "summary": "It is a cloud-based artificial intelligence solution that speeds up and streamlines companies' recruitment processes.",
-      "highlights": [
-        "Developed the backend and frontend of the project.",
-        "Responsible for the project's architecture, development, and management.",
-        "Integrated authentication, profile management, resume management and more."
-      ],
-      "keywords": [
-        "C#",
-        "ABP Framework",
-        ".Net 7",
-        "PostgreSQL",
-        "EF Core",
-        "Docker",
-        "Prisma"
-      ],
-      "startDate": "2023",
-      "url": "https://hireinone.com",
-      "position": "Team Lead & Full stack developer"
-    },
-    {
       "company": "HRinONE",
       "location": "Remote",
       "summary": "Comprehensive platform where you can manage all HR processes.",
       "highlights": [
         "Developed the backend and frontend of the project.",
         "Responsible for the project's architecture, development, and management.",
+        "Developed the mobile app from ground up.",
         "Integrated notification, authentication, faceid, employee management, demand management and more."
       ],
       "keywords": [
@@ -118,24 +114,72 @@
         ".Net 5",
         "PostgreSQL",
         "Docker",
+        "Bootstrap",
+        "Angular 11",
+        "React Native",
+        "Firebase",
+        "Redux",
         "Signalr"
       ],
       "startDate": "2018",
+      "endDate": "2025",
       "url": "https://hrinone.com",
-      "position": "Team Lead & Full stack developer"
+      "position": "Team lead and Full stack developer"
     },
     {
-      "company": "CatchJobs",
+      "company": "HireInOne",
       "location": "Remote",
-      "summary": "CatchJobs is a new application facilitating communication between job seekers and employers in the service sector.",
+      "summary": "It is a cloud-based artificial intelligence solution that speeds up and streamlines companies' recruitment processes.",
       "highlights": [
-        "Developed the backend, frontend, mobile app, backoffice and admin panel of the project.",
-        "Integrated Job posting, resume management, payment providers and more."
+        "Developed the backend and frontend of the project.",
+        "Responsible for the project's architecture, development, and management.",
+        "Developed the candidate web app from ground up.",
+        "Integrated authentication, profile management, resume management and more."
       ],
-      "keywords": ["C#", ".Net 6", "PostgreSQL", "Mediatr", "Dapper"],
-      "startDate": "2022",
-      "url": "https://catchjobs.com",
-      "position": "Full stack developer"
+      "keywords": [
+        "C#",
+        "ABP Framework",
+        ".Net 7",
+        "PostgreSQL",
+        "EF Core",
+        "Angular 15",
+        "HTML5",
+        "Bootstrap",
+        "Docker",
+        "Next.js",
+        "Prisma",
+        "Material UI",
+        "React"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "url": "https://hireinone.com",
+      "position": "Team lead and Full stack developer"
+    },
+    {
+      "company": "EYS Organization",
+      "location": "Remote",
+      "summary": "EYS is an international helping organization that provides services to people in need. This is a backoffice application for organization to manage their employees across the world.",
+      "highlights": [
+        "Developed the backoffice using Next.js 15 with App Router",
+        "Used Minimals UI, Material UI, NextAuth, Prisma, PostgreSQL",
+        "Deployed using Docker, Github Actions to an Ubuntu Server",
+        "Implemented authentication, profile management, role and permission management",
+        "Implemented excel import and export features into PostgreSQL"
+      ],
+      "keywords": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Material UI",
+        "Docker",
+        "Github Actions",
+        "NextAuth",
+        "Prisma"
+      ],
+      "startDate": "2025",
+      "endDate": "2025",
+      "position": "Full Stack Next.js Developer"
     },
     {
       "company": "Otelz",
@@ -146,24 +190,56 @@
         "Integrated virtual management system for the backoffice.",
         "Integrated payment providers and made features for the backoffice."
       ],
-      "keywords": ["C#", ".Net 5", "MSSQL", "Docker"],
+      "keywords": [
+        "C#",
+        ".Net 5",
+        "Angular.JS",
+        "MSSQL",
+        "Angular 15",
+        "HTML5",
+        "Bootstrap",
+        "Docker",
+        "Next.js"
+      ],
       "startDate": "2021",
       "endDate": "2022",
       "url": "https://otelz.com",
       "position": "Full stack developer"
     },
     {
-      "company": "Bilgesin",
+      "company": "CatchJobs",
       "location": "Remote",
-      "summary": "This is a survey website where you can share your thoughts with brands and earn discounts.",
+      "summary": "CatchJobs is a new application facilitating communication between job seekers and employers in the service sector.",
       "highlights": [
-        "Developed the backend, frontend and backoffice of the project.",
-        "Added coupon management and reporting features."
+        "Developed the backend, frontend, mobile app, backoffice and admin panel of the project.",
+        "Integrated Job posting, resume management, payment providers and more."
       ],
-      "keywords": ["JavaScript", "NodeJS", "Express", "MongoDB"],
+      "keywords": [
+        "C#",
+        ".Net 6",
+        "Next.js",
+        "PostgreSQL",
+        "Mediatr",
+        "React Native",
+        "Dapper"
+      ],
       "startDate": "2022",
-      "url": "https://bilgesin.com",
+      "endDate": "2024",
+      "url": "https://catchjobs.com",
       "position": "Full stack developer"
+    },
+    {
+      "company": "MeasureBox",
+      "summary": "Remote data monitoring and analysis application for MeasureBox GSM datalogger devices.",
+      "highlights": [
+        "Developed the mobile app of the project.",
+        "Integrated google maps to locate the device and monitor the data."
+      ],
+      "keywords": ["React Native", "NativeBase", "OneSignal", "Google Maps"],
+      "startDate": "2023",
+      "endDate": "2023",
+      "url": "https://measurebox.online",
+      "position": "Mobile developer"
     },
     {
       "company": "Go Talk Wireless",
@@ -174,8 +250,8 @@
         "Integrated payment providers and made features for the backoffice."
       ],
       "keywords": [
-        "NodeJS",
-        "PostgreSQL",
+        "React",
+        "React Native",
         "Stripe",
         "Firebase",
         "Authorize.net",
@@ -184,8 +260,90 @@
         "VPN"
       ],
       "startDate": "2020",
+      "endDate": "2024",
       "url": "https://gotalkwireless.com",
       "position": "Full stack developer"
+    },
+    {
+      "company": "Bilgesin",
+      "location": "Remote",
+      "summary": "This is a survey website where you can share your thoughts with brands and earn discounts.",
+      "highlights": [
+        "Developed the backend, frontend and backoffice of the project.",
+        "Added coupon management and reporting features."
+      ],
+      "keywords": ["JavaScript", "NodeJS", "Express", "MongoDB", "Angular 11"],
+      "startDate": "2022",
+      "endDate": "2025",
+      "url": "https://bilgesin.com",
+      "position": "Full stack developer"
+    },
+    {
+      "company": "Divortex",
+      "location": "Remote",
+      "summary": "This is a leading provider of high-quality car care chemicals and related solutions.",
+      "highlights": ["Developed the mobile app from ground up."],
+      "keywords": ["React Native", "JavaScript", "Firebase"],
+      "startDate": "2020",
+      "endDate": "2023",
+      "url": "https://divortex.com",
+      "position": "Mobile developer"
+    },
+    {
+      "company": "Divortex",
+      "location": "Remote",
+      "summary": "This is a leading provider of high-quality car care chemicals and related solutions.",
+      "highlights": ["Developed the web app from ground up."],
+      "keywords": ["React", "Next.js v9", "Firebase", "React Native Web"],
+      "startDate": "2020",
+      "endDate": "2023",
+      "url": "https://divortex.com",
+      "position": "Full stack developer"
+    },
+    {
+      "company": "Marmarabirlik",
+      "location": "Remote",
+      "summary": "Marmarabirlik is an Agricultural Sales Cooperatives Union established in 1954.",
+      "highlights": ["Developed the mobile app from ground up."],
+      "keywords": ["React Native", "JavaScript", "Firebase"],
+      "startDate": "2018",
+      "endDate": "2018",
+      "url": "https://marmarabirlik.com.tr",
+      "position": "Mobile developer"
+    },
+    {
+      "company": "Titiz Plastik",
+      "location": "Remote",
+      "summary": "Titiz Plastik, founded in 1984, is a well-established company whose experience dates back to the 1970s.",
+      "highlights": ["Developed the mobile app from ground up."],
+      "keywords": ["React Native", "JavaScript", "Firebase"],
+      "startDate": "2018",
+      "endDate": "2018",
+      "url": "https://titizplastik.com",
+      "position": "Mobile developer"
+    },
+    {
+      "company": "ZeplinCar",
+      "location": "Remote",
+      "summary": "ZeplinCar is a car rental company.",
+      "highlights": ["Developed the mobile app from ground up."],
+      "keywords": ["React Native", "JavaScript"],
+      "startDate": "2018",
+      "endDate": "2018",
+      "url": "https://zeplincar.com",
+      "position": "Mobile developer"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Math Master - Fun way",
+      "summary": "Your go-to mobile game that math fund and engaging! Designed for all ages, whether you are a beginner or a seasoned mathematician, Math Master is perfect for improving your computational abilities.",
+      "highlights": ["Developed the mobile game from ground up."],
+      "keywords": ["Flutter", "Dart", "Firebase", "Google Admob"],
+      "startDate": "2024",
+      "endDate": "2025",
+      "url": "https://ysaribulut.com",
+      "position": "Mobile developer"
     }
   ],
   "meta": {

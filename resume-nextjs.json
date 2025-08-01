@@ -1,0 +1,275 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yunus SARIBULUT",
+    "label": "Next.js & React Developer",
+    "image": "https://avatars.githubusercontent.com/u/34043976?v=4",
+    "email": "yunusaribulut@gmail.com",
+    "phone": "534 528 3099",
+    "url": "https://ysaribulut.com",
+    "summary": "Experienced Next.js developer with expertise in building modern, scalable web applications. Specialized in full-stack development using Next.js, React, and TypeScript, with strong backend integration capabilities using Node.js and various databases. I have successfully delivered multiple production-ready applications with focus on performance optimization, SEO, and user experience. My experience spans from startup environments to enterprise-level projects, consistently delivering high-quality, maintainable code that drives business growth.",
+    "location": {
+      "city": "Umraniye",
+      "countryCode": "TR",
+      "region": "Istanbul"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ysaribulut",
+        "url": "https://github.com/ysaribulut"
+      },
+      {
+        "network": "Linkedin",
+        "username": "yunus-saribulut",
+        "url": "https://www.linkedin.com/in/yunus-saribulut/"
+      },
+      {
+        "network": "Upwork",
+        "username": "Upwork",
+        "url": "https://www.upwork.com/freelancers/yunussaribulut"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Next.js",
+      "level": "Master",
+      "keywords": [
+        "App Router",
+        "Pages Router",
+        "Server Components",
+        "Static Generation",
+        "Server-Side Rendering",
+        "API Routes",
+        "Middleware",
+        "Dynamic Routing",
+        "Image Optimization",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Master",
+      "keywords": [
+        "Hooks",
+        "Context API",
+        "State Management",
+        "Component Architecture",
+        "Redux",
+        "React Query",
+        "Testing Library",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "keywords": [
+        "Type System",
+        "Generics",
+        "Interfaces",
+        "Advanced Types",
+        "Type Guards",
+        "Utility Types"
+      ]
+    },
+    {
+      "name": "Frontend Technologies",
+      "level": "Master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Material UI",
+        "Responsive Design",
+        "Accessibility"
+      ]
+    },
+    {
+      "name": "Backend Integration",
+      "level": "Master",
+      "keywords": [
+        "Node.js",
+        "Prisma",
+        "REST APIs",
+        "GraphQL",
+        "Database Design",
+        "Authentication",
+        "Authorization"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Master",
+      "keywords": ["PostgreSQL", "MongoDB", "Redis", "SQLite"]
+    },
+    {
+      "name": "DevOps & Tools",
+      "level": "Intermediate",
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "Github Actions",
+        "Vercel",
+        "AWS",
+        "Git",
+        "ESLint",
+        "Prettier"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "work": [
+    {
+      "company": "HireInOne",
+      "location": "Remote",
+      "summary": "Led the development of a cloud-based AI recruitment platform using Next.js and modern web technologies.",
+      "highlights": [
+        "Developed the complete candidate web application using Next.js 13+ with Pages Router",
+        "Implemented server-side rendering and static generation for optimal performance and SEO",
+        "Built responsive UI components using React, Material UI, and custom CSS",
+        "Integrated Prisma ORM for efficient database operations with PostgreSQL",
+        "Developed RESTful APIs and integrated third-party services",
+        "Implemented authentication, profile management, and resume management systems",
+        "Responsible for project architecture, development, and team management"
+      ],
+      "keywords": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Material UI",
+        "Server-Side Rendering",
+        "API Routes",
+        "Authentication",
+        "Performance Optimization"
+      ],
+      "startDate": "2023",
+      "endDate": "2025",
+      "url": "https://hireinone.com",
+      "position": "Team Lead & Next.js Developer"
+    },
+    {
+      "company": "EYS Organization",
+      "location": "Remote",
+      "summary": "EYS is an international helping organization that provides services to people in need. This is a backoffice application for organization to manage their employees across the world.",
+      "highlights": [
+        "Developed the backoffice using Next.js 15 with App Router",
+        "Used Minimals UI, Material UI, NextAuth, Prisma, PostgreSQL",
+        "Deployed using Docker, Github Actions to an Ubuntu Server",
+        "Implemented authentication, profile management, role and permission management",
+        "Implemented excel import and export features into PostgreSQL"
+      ],
+      "keywords": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Material UI",
+        "Docker",
+        "Github Actions",
+        "NextAuth",
+        "Prisma"
+      ],
+      "startDate": "2025",
+      "endDate": "2025",
+      "position": "Full Stack Next.js Developer"
+    },
+    {
+      "company": "CatchJobs",
+      "location": "Remote",
+      "summary": "Developed a comprehensive job marketplace platform connecting job seekers and employers in the service sector.",
+      "highlights": [
+        "Built the entire backoffice and admin panel using Next.js with server-side rendering capabilities",
+        "Implemented dynamic routing and optimized page loading for better user experience",
+        "Developed job posting interface, resume management system, and payment integration",
+        "Created responsive design ensuring compatibility across all devices",
+        "Integrated payment providers (Stripe, PayPal) with Next.js API routes",
+        "Implemented real-time features for job notifications and messaging",
+        "Optimized SEO with Next.js built-in features and structured data"
+      ],
+      "keywords": [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Payment Integration",
+        "SEO Optimization",
+        "Responsive Design",
+        "API Routes",
+        "Real-time Features"
+      ],
+      "startDate": "2022",
+      "endDate": "2024",
+      "url": "https://catchjobs.com",
+      "position": "Full Stack Next.js Developer"
+    },
+    {
+      "company": "Otelz",
+      "location": "Remote",
+      "summary": "Otelz is an online travel agency established in Turkey in 2014.",
+      "highlights": [
+        "Developed the web app using Next.js",
+        "Optimized SEO with Next.js built-in features and structured data",
+        "Implemented dynamic routing and optimized page loading for better user experience",
+        "Created responsive design ensuring compatibility across all devices",
+        "Developed RESTful APIs and integrated third-party services"
+      ],
+      "keywords": [
+        "Next.js",
+        "Angular 15",
+        "C#",
+        ".Net 5",
+        "MSSQL",
+        "HTML5",
+        "Bootstrap",
+        "Docker",
+        "Payment Integration"
+      ],
+      "startDate": "2021",
+      "endDate": "2022",
+      "url": "https://otelz.com",
+      "position": "Full Stack Next.js Developer"
+    },
+    {
+      "company": "Divortex",
+      "location": "Remote",
+      "summary": "Leading provider of high-quality car care chemicals and related solutions.",
+      "highlights": [
+        "Developed the complete web application from ground up using Next.js v9 with Pages router",
+        "Built e-commerce platform with product catalog and shopping cart",
+        "Integrated Firebase for push notification management",
+        "Implemented React Native Web for cross-platform compatibility",
+        "Created responsive design for optimal user experience across devices"
+      ],
+      "keywords": [
+        "Next.js v9",
+        "React",
+        "Firebase",
+        "React Native Web",
+        "E-commerce"
+      ],
+      "startDate": "2020",
+      "endDate": "2023",
+      "url": "https://divortex.com",
+      "position": "Full Stack Next.js Developer"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-12-19T15:53:00",
+    "theme": "nextjs-focused"
+  }
+}
