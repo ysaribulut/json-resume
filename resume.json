@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Yunus SARIBULUT",
-    "label": "Senior Lead Developer",
+    "label": "Senior Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/34043976?v=4",
     "email": "yunusaribulut@gmail.com",
-    "phone": "534 528 3099",
+    "phone": "5345283099",
     "url": "https://ysaribulut.com",
-    "summary": "Hi I am Yunus, I live in Istanbul. \n I have 10 years of extensive full stack development experience. \n I love working on challenging projects and learning new technologies. \n Backend: C#, .NET 5/7/8/9, Asp.Net Web Forms, .Net Framework, ABP Framework, EF Core \n Database: MSSQL, PostgreSQL, NoSQL (MongoDB), Redis \n Frontend: Html, Css, Scss, Bootstrap, Tailwind, JavaScript, Jquery, React, Next.js, Angular, Vue.js. \n Mobile: React Native, Flutter.",
+    "summary": "Senior Full Stack Developer with 10 years of experience building and maintaining enterprise-grade web and mobile applications. Backend expertise in C#, ASP.NET Web Forms, .NET Framework, .NET Core 2.1/3.1, .NET 5/6/8/9, ABP Framework, and EF Core. Frontend proficiency in HTML5, CSS, SCSS, Bootstrap, Material UI, JavaScript, TypeScript, React, Vue.js, and Angular. Mobile development with React Native and Flutter. Database management with PostgreSQL, MSSQL, MongoDB, Redis, and Prisma ORM. Experienced in CI/CD pipelines using GitHub Actions, GitLab CI/CD, Docker, Kubernetes, AWS, GCP, and Azure. Proven track record of leading development teams, making architectural decisions, and delivering projects from the ground up in corporate environments. Passionate about game development with Unity.",
     "location": {
       "city": "Umraniye",
       "countryCode": "TR",
@@ -33,57 +33,87 @@
   },
   "skills": [
     {
-      "name": "C#",
+      "name": "Backend Development",
       "level": "Master",
       "keywords": [
-        ".Net 5/7/8/9",
+        "C#",
+        ".NET Core 2.1/3.1",
+        ".NET 5/6/8/9",
+        "ASP.NET Web Forms",
+        ".NET Framework",
+        ".NET MVC",
         "ABP Framework",
         "EF Core",
-        "Signalr",
-        "Mediatr",
-        "Asp.net Web Forms",
-        "WSDL",
-        "Unity"
+        "SignalR",
+        "MediatR",
+        "Node.js",
+        "Laravel PHP",
+        "WSDL"
       ]
     },
     {
-      "name": "JavaScript",
+      "name": "Frontend Development",
       "level": "Master",
       "keywords": [
-        "NodeJS",
+        "HTML5",
+        "CSS",
+        "SCSS",
+        "Bootstrap",
+        "Material UI",
+        "Tailwind CSS",
+        "JavaScript",
         "TypeScript",
         "React",
-        "React Native",
         "Next.js",
-        "Angular"
+        "Angular",
+        "Vue.js",
+        "jQuery"
       ]
     },
     {
-      "name": "Flutter",
+      "name": "Mobile Development",
       "level": "Master",
-      "keywords": ["Dart", "Firebase"]
+      "keywords": [
+        "React Native",
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "In-App Purchase",
+        "Push Notifications"
+      ]
     },
     {
-      "name": "SQL/NoSQL",
+      "name": "Database",
       "level": "Master",
-      "keywords": ["PostgreSQL", "SQLite", "MSSQL", "MongoDB", "Redis"]
+      "keywords": [
+        "PostgreSQL",
+        "MSSQL",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Prisma ORM",
+        "EF Core",
+        "Dapper"
+      ]
     },
     {
-      "name": "Cloud",
+      "name": "DevOps & Cloud",
       "level": "Intermediate",
       "keywords": [
-        "AWS",
-        "GCP",
         "Docker",
         "Kubernetes",
-        "CI/CD",
-        "Github Actions"
+        "AWS",
+        "GCP",
+        "Azure",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "CI/CD"
       ]
     },
     {
-      "name": "Frontend",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "SCSS", "Bootstrap", "Tailwind", "Jquery"]
+      "name": "Game Development",
+      "level": "Intermediate",
+      "keywords": ["Unity", "C#", "Google AdMob"]
     }
   ],
   "languages": [
@@ -98,74 +128,227 @@
   ],
   "work": [
     {
-      "company": "HRinONE",
+      "company": "Bilgesin",
       "location": "Remote",
-      "summary": "Comprehensive platform where you can manage all HR processes.",
+      "summary": "Bilgesin is a survey platform where users share their opinions with brands and earn discounts in return.",
       "highlights": [
-        "Developed the backend and frontend of the project.",
-        "Responsible for the project's architecture, development, and management.",
-        "Developed the mobile app from ground up.",
-        "Integrated notification, authentication, faceid, employee management, demand management and more."
+        "Serving as CTO, responsible for all technology strategy, infrastructure, and development decisions.",
+        "Built the entire technical infrastructure from scratch including backend, frontend, and backoffice applications.",
+        "Developed coupon management, reporting, and analytics features to drive user engagement.",
+        "Managing and scaling the platform architecture to handle growing user base."
       ],
       "keywords": [
-        "C#",
-        "ABP Framework",
-        "EF Core",
-        ".Net 5",
-        "PostgreSQL",
-        "Docker",
-        "Bootstrap",
-        "Angular 11",
-        "React Native",
-        "Firebase",
-        "Redux",
-        "Signalr"
+        "Node.js",
+        "Angular",
+        "MongoDB",
+        "JavaScript",
+        "TypeScript",
+        "HTML5"
       ],
-      "startDate": "2018",
-      "endDate": "2025",
-      "url": "https://hrinone.com",
-      "position": "Team lead and Full stack developer"
+      "startDate": "2022-01",
+      "url": "https://bilgesin.com",
+      "position": "CTO & Full Stack Developer"
     },
     {
-      "company": "HireInOne",
+      "company": "Innfinitive",
       "location": "Remote",
-      "summary": "It is a cloud-based artificial intelligence solution that speeds up and streamlines companies' recruitment processes.",
+      "summary": "Innfinitive is a technology company developing HRinONE (comprehensive HR management platform) and HireInOne (AI-powered recruitment solution).",
       "highlights": [
-        "Developed the backend and frontend of the project.",
-        "Responsible for the project's architecture, development, and management.",
-        "Developed the candidate web app from ground up.",
-        "Integrated authentication, profile management, resume management and more."
+        "Promoted from Full Stack Developer to Lead Developer, leading architectural decisions and team management.",
+        "Developed backend and frontend for HRinONE, a comprehensive platform managing all HR processes including employee management, demand management, and authentication.",
+        "Built the HRinONE mobile app from the ground up with React Native, integrating notifications, FaceID, and real-time features via SignalR.",
+        "Developed backend and frontend for HireInOne, an AI-powered recruitment platform with candidate web app, profile management, and resume management.",
+        "Integrated external data sources including SGK (Social Security), SAP, and PDKS (access control devices).",
+        "Managed and maintained PostgreSQL databases, Redis caching layers, and Docker/Kubernetes deployments.",
+        "HRinONE available on [Google Play](https://play.google.com/store/apps/details?id=com.app.hrinone) and [App Store](https://apps.apple.com/us/app/hrinone/id1573424216)."
       ],
       "keywords": [
         "C#",
         "ABP Framework",
-        ".Net 7",
-        "PostgreSQL",
         "EF Core",
-        "Angular 15",
-        "HTML5",
-        "Bootstrap",
+        ".NET 5",
+        ".NET 9",
+        "PostgreSQL",
+        "Redis",
         "Docker",
+        "Kubernetes",
+        "Angular",
+        "TypeScript",
+        "React Native",
+        "Firebase",
+        "SignalR",
         "Next.js",
         "Prisma",
         "Material UI",
         "React"
       ],
-      "startDate": "2023",
-      "endDate": "2025",
-      "url": "https://hireinone.com",
-      "position": "Team lead and Full stack developer"
+      "startDate": "2020-01",
+      "endDate": "2026-02",
+      "url": "https://hrinone.com",
+      "position": "Senior Lead Developer & Full Stack Developer"
     },
     {
-      "company": "EYS Organization",
+      "company": "Otelz",
       "location": "Remote",
-      "summary": "EYS is an international helping organization that provides services to people in need. This is a backoffice application for organization to manage their employees across the world.",
+      "summary": "Otelz is an online travel agency established in Turkey in 2014.",
       "highlights": [
-        "Developed the backoffice using Next.js 15 with App Router",
-        "Used Minimals UI, Material UI, NextAuth, Prisma, PostgreSQL",
-        "Deployed using Docker, Github Actions to an Ubuntu Server",
-        "Implemented authentication, profile management, role and permission management",
-        "Implemented excel import and export features into PostgreSQL"
+        "Developed the backend and frontend of the backoffice application.",
+        "Integrated virtual management system for streamlined operations.",
+        "Integrated payment providers and implemented key backoffice features."
+      ],
+      "keywords": [
+        "C#",
+        ".NET 5",
+        "Angular.JS",
+        "Angular 15",
+        "MSSQL",
+        "HTML5",
+        "Bootstrap",
+        "Docker"
+      ],
+      "startDate": "2021-06",
+      "endDate": "2022-06",
+      "url": "https://otelz.com",
+      "position": "Full Stack Developer"
+    },
+    {
+      "company": "Biletsepeti",
+      "location": "Istanbul",
+      "summary": "Biletsepeti is an online event ticketing platform in Turkey.",
+      "highlights": [
+        "Played an active role in the full stack development and deployment of the platform.",
+        "Developed the user interface with Vue.js and built the API layer with .NET Core 2.1.",
+        "Managed data storage across MSSQL, MongoDB, and Redis for optimal performance.",
+        "Integrated Biletbank for end-to-end ticket sales processing."
+      ],
+      "keywords": [
+        "C#",
+        ".NET MVC",
+        ".NET Core 2.1",
+        "Vue.js",
+        "JavaScript",
+        "MSSQL",
+        "Redis",
+        "MongoDB",
+        "HTML5",
+        "Bootstrap"
+      ],
+      "startDate": "2017-12",
+      "endDate": "2021-07",
+      "url": "https://biletsepeti.com",
+      "position": "Full Stack Developer"
+    },
+    {
+      "company": "Arma Digital",
+      "location": "Istanbul",
+      "summary": "Arma Digital is a web agency specializing in corporate websites and data-driven web solutions.",
+      "highlights": [
+        "Developed corporate websites including pfilo.com.tr using ASP.NET Web Forms and .NET MVC.",
+        "Built revenue-generating websites utilizing Google AdSense monetization strategies.",
+        "Developed web scrapers to collect and aggregate data from platforms like SimilarWeb.",
+        "Processed and served millions of rows of data for analytics and reporting."
+      ],
+      "keywords": [
+        "HTML5",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "MSSQL",
+        "ASP.NET Web Forms",
+        ".NET MVC"
+      ],
+      "startDate": "2015-02",
+      "endDate": "2016-10",
+      "url": "https://www.armadigital.com.tr/",
+      "position": "Full Stack Developer"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Link2Coaching",
+      "description": "Link2Coaching is an innovative digital platform dedicated to the art of peer coaching, empowering coaches worldwide by refining their skills and fostering professional growth in a collaborative environment.",
+      "highlights": [
+        "Developed the web application using Next.js connected to a backend API.",
+        "Built the mobile application with Flutter, integrating in-app purchases, Firebase push notifications, and Daily.js video conferencing.",
+        "Developed the backend API with Laravel PHP and MySQL, integrating Iyzico payment gateway and in-app purchase verification.",
+        "Built the admin panel for platform management.",
+        "Available on [App Store](https://apps.apple.com/us/app/link2coaching/id1620142293) and [Google Play](https://play.google.com/store/apps/details?id=com.l2coaching.app)."
+      ],
+      "keywords": [
+        "Next.js",
+        "Flutter",
+        "Laravel PHP",
+        "MySQL",
+        "Firebase",
+        "Daily.js",
+        "In-App Purchase",
+        "Iyzico"
+      ],
+      "startDate": "2026-02",
+      "endDate": "2026-04",
+      "url": "https://app.link2coaching.com/",
+      "type": "application"
+    },
+    {
+      "name": "BCS Digital 360",
+      "description": "A mobile application for Bosch Car Service stations to manage their social media presence and other operational needs.",
+      "highlights": [
+        "Developed the mobile application from ground up using Flutter.",
+        "Integrated Firebase for authentication and real-time features.",
+        "Built tools for social media management and operational workflows for service stations.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.arma.bcs) and [App Store](https://apps.apple.com/us/app/bcs-digital-360/id6746724937)."
+      ],
+      "keywords": ["Flutter", "Dart", "Firebase"],
+      "startDate": "2025-01",
+      "endDate": "2026-04",
+      "type": "application"
+    },
+    {
+      "name": "Kitabola",
+      "description": "Kitabola is a social reading platform where users can share books and quotes, create reading lists, write book reviews, and discover new books by following other readers.",
+      "highlights": [
+        "Developed the entire platform from scratch including backend, frontend, and mobile application.",
+        "Built the mobile application with React Native, integrating Firebase push notifications and real-time features via SignalR.",
+        "Developed the backend API with .NET Core 2.1, later migrated to .NET 9, with MSSQL database.",
+        "Integrated KIBO system for book data sourcing and catalog management.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=tr.com.kitabola) and [App Store](https://apps.apple.com/us/app/id1506571721)."
+      ],
+      "keywords": [
+        "React Native",
+        "Firebase",
+        ".NET Core 2.1",
+        ".NET 9",
+        "MSSQL",
+        "SignalR",
+        "C#"
+      ],
+      "startDate": "2020-01",
+      "endDate": "2024-12",
+      "url": "https://kitabola.com.tr/",
+      "type": "application"
+    },
+    {
+      "name": "Enta Cars",
+      "description": "Entacars is a short and long-term car rental company, founded by an industry veteran with years of experience at all levels of the rental sector.",
+      "highlights": [
+        "Developed the mobile application from scratch using Flutter.",
+        "Integrated Firebase for authentication, push notifications, and analytics.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=tr.com.entacars) and [App Store](https://apps.apple.com/us/app/entacars-rent-a-car/id6503136697)."
+      ],
+      "keywords": ["Flutter", "Dart", "Firebase"],
+      "startDate": "2024-01",
+      "endDate": "2024-12",
+      "url": "https://www.entacars.com/",
+      "type": "application"
+    },
+    {
+      "name": "EYS Organization",
+      "description": "Backoffice application for an international humanitarian organization to manage employees across the world.",
+      "highlights": [
+        "Developed the backoffice using Next.js 15 with App Router.",
+        "Implemented authentication, role and permission management using NextAuth.",
+        "Built Excel import and export features for PostgreSQL data management.",
+        "Deployed using Docker and GitHub Actions to an Ubuntu Server."
       ],
       "keywords": [
         "Next.js",
@@ -173,81 +356,43 @@
         "PostgreSQL",
         "Material UI",
         "Docker",
-        "Github Actions",
+        "GitHub Actions",
         "NextAuth",
         "Prisma"
       ],
-      "startDate": "2025",
-      "endDate": "2025",
-      "position": "Full Stack Next.js Developer"
+      "startDate": "2025-01",
+      "endDate": "2025-06",
+      "type": "application"
     },
     {
-      "company": "Otelz",
-      "location": "Remote",
-      "summary": "Otelz is an online travel agency established in Turkey in 2014.",
+      "name": "CatchJobs",
+      "description": "A platform facilitating communication between job seekers and employers in the service sector.",
       "highlights": [
-        "Developed the backend and frontend of the backoffice of the project.",
-        "Integrated virtual management system for the backoffice.",
-        "Integrated payment providers and made features for the backoffice."
+        "Developed the backend, frontend, mobile app, backoffice, and admin panel.",
+        "Integrated job posting, resume management, and payment providers."
       ],
       "keywords": [
         "C#",
-        ".Net 5",
-        "Angular.JS",
-        "MSSQL",
-        "Angular 15",
-        "HTML5",
-        "Bootstrap",
-        "Docker",
-        "Next.js"
-      ],
-      "startDate": "2021",
-      "endDate": "2022",
-      "url": "https://otelz.com",
-      "position": "Full stack developer"
-    },
-    {
-      "company": "CatchJobs",
-      "location": "Remote",
-      "summary": "CatchJobs is a new application facilitating communication between job seekers and employers in the service sector.",
-      "highlights": [
-        "Developed the backend, frontend, mobile app, backoffice and admin panel of the project.",
-        "Integrated Job posting, resume management, payment providers and more."
-      ],
-      "keywords": [
-        "C#",
-        ".Net 6",
+        ".NET 6",
         "Next.js",
         "PostgreSQL",
-        "Mediatr",
+        "MediatR",
         "React Native",
         "Dapper"
       ],
-      "startDate": "2022",
-      "endDate": "2024",
+      "startDate": "2022-01",
+      "endDate": "2024-12",
       "url": "https://catchjobs.com",
-      "position": "Full stack developer"
+      "type": "application"
     },
     {
-      "company": "MeasureBox",
-      "summary": "Remote data monitoring and analysis application for MeasureBox GSM datalogger devices.",
+      "name": "Go Talk Wireless",
+      "description": "GoTalk offers physical SIM, eSIM, and VPN solutions for global connectivity.",
       "highlights": [
-        "Developed the mobile app of the project.",
-        "Integrated google maps to locate the device and monitor the data."
-      ],
-      "keywords": ["React Native", "NativeBase", "OneSignal", "Google Maps"],
-      "startDate": "2023",
-      "endDate": "2023",
-      "url": "https://measurebox.online",
-      "position": "Mobile developer"
-    },
-    {
-      "company": "Go Talk Wireless",
-      "location": "Remote",
-      "summary": "GoTalk is a company offers physical SIM, e-SIM and VPN solutions for connectivity.",
-      "highlights": [
-        "Developed the backend, frontend and mobile app of the project.",
-        "Integrated payment providers and made features for the backoffice."
+        "Developed the backend, frontend, and mobile application.",
+        "Integrated Stripe and Authorize.net payment providers.",
+        "Implemented Plintron eSIM and VPN service integrations.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.gotalkwireless.app) and [App Store](https://apps.apple.com/us/app/go-talk-wireless/id1644427609)."
       ],
       "keywords": [
         "React",
@@ -255,101 +400,113 @@
         "Stripe",
         "Firebase",
         "Authorize.net",
-        "Digital Ocean",
-        "Plintron",
-        "VPN"
+        "Digital Ocean"
       ],
-      "startDate": "2020",
-      "endDate": "2024",
+      "startDate": "2020-01",
+      "endDate": "2024-12",
       "url": "https://gotalkwireless.com",
-      "position": "Full stack developer"
+      "type": "application"
     },
     {
-      "company": "Bilgesin",
-      "location": "Remote",
-      "summary": "This is a survey website where you can share your thoughts with brands and earn discounts.",
+      "name": "MeasureBox",
+      "description": "Remote data monitoring and analysis application for MeasureBox GSM datalogger devices.",
       "highlights": [
-        "Developed the backend, frontend and backoffice of the project.",
-        "Added coupon management and reporting features."
+        "Developed the mobile app for remote device monitoring.",
+        "Integrated Google Maps for device location tracking and real-time data visualization.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.measurebox)."
       ],
-      "keywords": ["JavaScript", "NodeJS", "Express", "MongoDB", "Angular 11"],
-      "startDate": "2022",
-      "endDate": "2025",
-      "url": "https://bilgesin.com",
-      "position": "Full stack developer"
+      "keywords": ["React Native", "NativeBase", "OneSignal", "Google Maps"],
+      "startDate": "2023-01",
+      "endDate": "2023-12",
+      "url": "https://measurebox.online",
+      "type": "application"
     },
     {
-      "company": "Divortex",
-      "location": "Remote",
-      "summary": "This is a leading provider of high-quality car care chemicals and related solutions.",
-      "highlights": ["Developed the mobile app from ground up."],
-      "keywords": ["React Native", "JavaScript", "Firebase"],
-      "startDate": "2020",
-      "endDate": "2023",
+      "name": "Divortex",
+      "description": "A leading provider of high-quality car care chemicals and related solutions.",
+      "highlights": [
+        "Developed the mobile app from ground up using React Native.",
+        "Developed the web application using React, Next.js, and React Native Web.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=tr.com.divortex) and [App Store](https://apps.apple.com/us/app/divortex/id1527562103)."
+      ],
+      "keywords": [
+        "React Native",
+        "React",
+        "Next.js",
+        "Firebase",
+        "React Native Web"
+      ],
+      "startDate": "2020-01",
+      "endDate": "2023-12",
       "url": "https://divortex.com",
-      "position": "Mobile developer"
+      "type": "application"
     },
-    {
-      "company": "Divortex",
-      "location": "Remote",
-      "summary": "This is a leading provider of high-quality car care chemicals and related solutions.",
-      "highlights": ["Developed the web app from ground up."],
-      "keywords": ["React", "Next.js v9", "Firebase", "React Native Web"],
-      "startDate": "2020",
-      "endDate": "2023",
-      "url": "https://divortex.com",
-      "position": "Full stack developer"
-    },
-    {
-      "company": "Marmarabirlik",
-      "location": "Remote",
-      "summary": "Marmarabirlik is an Agricultural Sales Cooperatives Union established in 1954.",
-      "highlights": ["Developed the mobile app from ground up."],
-      "keywords": ["React Native", "JavaScript", "Firebase"],
-      "startDate": "2018",
-      "endDate": "2018",
-      "url": "https://marmarabirlik.com.tr",
-      "position": "Mobile developer"
-    },
-    {
-      "company": "Titiz Plastik",
-      "location": "Remote",
-      "summary": "Titiz Plastik, founded in 1984, is a well-established company whose experience dates back to the 1970s.",
-      "highlights": ["Developed the mobile app from ground up."],
-      "keywords": ["React Native", "JavaScript", "Firebase"],
-      "startDate": "2018",
-      "endDate": "2018",
-      "url": "https://titizplastik.com",
-      "position": "Mobile developer"
-    },
-    {
-      "company": "ZeplinCar",
-      "location": "Remote",
-      "summary": "ZeplinCar is a car rental company.",
-      "highlights": ["Developed the mobile app from ground up."],
-      "keywords": ["React Native", "JavaScript"],
-      "startDate": "2018",
-      "endDate": "2018",
-      "url": "https://zeplincar.com",
-      "position": "Mobile developer"
-    }
-  ],
-  "projects": [
     {
       "name": "Operatum",
-      "summary": "Your go-to mobile game that math fund and engaging! Designed for all ages, whether you are a beginner or a seasoned mathematician, Math Master is perfect for improving your computational abilities.",
-      "highlights": ["Developed the mobile game from ground up."],
-      "keywords": ["Flutter", "Dart", "Firebase", "Google Admob"],
-      "startDate": "2024",
-      "endDate": "2025",
+      "description": "A mobile math game designed for all ages to improve computational abilities in a fun and engaging way.",
+      "highlights": [
+        "Developed the mobile game from ground up using Flutter and Dart.",
+        "Integrated Firebase analytics and Google AdMob for monetization."
+      ],
+      "keywords": ["Flutter", "Dart", "Firebase", "Google AdMob"],
+      "startDate": "2024-01",
+      "endDate": "2025-06",
       "url": "https://ysaribulut.com",
-      "position": "Mobile developer"
+      "type": "application"
+    },
+    {
+      "name": "Marmarabirlik",
+      "description": "Mobile application for Marmarabirlik, an Agricultural Sales Cooperatives Union established in 1954.",
+      "highlights": [
+        "Developed the mobile app from ground up using React Native.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=tr.com.marmarabirlik) and [App Store](https://apps.apple.com/us/app/marmarabirlik/id1520027995)."
+      ],
+      "keywords": ["React Native", "JavaScript", "Firebase"],
+      "startDate": "2018-01",
+      "endDate": "2018-12",
+      "url": "https://marmarabirlik.com.tr",
+      "type": "application"
+    },
+    {
+      "name": "Titiz Plastik",
+      "description": "Mobile application for Titiz Plastik, a well-established plastics company with experience dating back to the 1970s.",
+      "highlights": [
+        "Developed the mobile app from ground up using React Native.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.titizplastikmobile.app) and [App Store](https://apps.apple.com/us/app/titiz-plastik-group/id1457194601)."
+      ],
+      "keywords": ["React Native", "JavaScript", "Firebase"],
+      "startDate": "2018-01",
+      "endDate": "2018-12",
+      "url": "https://titizplastik.com",
+      "type": "application"
+    },
+    {
+      "name": "ZeplinCar",
+      "description": "Mobile application for ZeplinCar, a car rental company.",
+      "highlights": [
+        "Developed the mobile app from ground up using React Native.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.armadigital.zeplincar) and [App Store](https://apps.apple.com/us/app/zeplin-car-rent-a-car/id1449349237)."
+      ],
+      "keywords": ["React Native", "JavaScript"],
+      "startDate": "2018-01",
+      "endDate": "2018-12",
+      "url": "https://zeplincar.com",
+      "type": "application"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ataturk Teknik Lisesi",
+      "area": "Technical Education",
+      "studyType": "High School Diploma",
+      "startDate": "2010-09",
+      "endDate": "2014-06"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/sample.resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00",
+    "lastModified": "2026-04-09T00:00:00",
     "rickosborne": {}
   }
 }
