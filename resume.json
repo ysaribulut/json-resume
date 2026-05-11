@@ -369,7 +369,8 @@
       "description": "A platform facilitating communication between job seekers and employers in the service sector.",
       "highlights": [
         "Developed the backend, frontend, mobile app, backoffice, and admin panel.",
-        "Integrated job posting, resume management, and payment providers."
+        "Integrated job posting, resume management, and payment providers.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.catchjobs.android) and [App Store](https://apps.apple.com/tr/app/catchjobs-find-jobs-staff/id1499100904)."
       ],
       "keywords": [
         "C#",
@@ -378,7 +379,8 @@
         "PostgreSQL",
         "MediatR",
         "React Native",
-        "Dapper"
+        "Dapper",
+        "Expo"
       ],
       "startDate": "2022-01",
       "endDate": "2024-12",
@@ -446,7 +448,8 @@
       "description": "A mobile math game designed for all ages to improve computational abilities in a fun and engaging way.",
       "highlights": [
         "Developed the mobile game from ground up using Flutter and Dart.",
-        "Integrated Firebase analytics and Google AdMob for monetization."
+        "Integrated Firebase analytics and Google AdMob for monetization.",
+        "Available on [Google Play](https://play.google.com/store/apps/details?id=com.ysaribulut.mathmaster) and [App Store](https://apps.apple.com/us/app/id6642707816)."
       ],
       "keywords": ["Flutter", "Dart", "Firebase", "Google AdMob"],
       "startDate": "2024-01",
